@@ -15,6 +15,9 @@ body{
     float: left;
     text-align: center;
 }
+.nav-area ul li:last-child{
+    margin-left: 10px;
+}
 .nav-area ul li a{
     text-decoration: none;
     font-size: 17px;
@@ -59,3 +62,43 @@ body{
     text-transform: uppercase;
     letter-spacing: 3px;
 }
+
+
+
+/* ========================================================================== */
+
+@media only screen and (max-width: 720px) {
+    .nav-area ul li{
+        list-style: none;
+        width: 50px;
+        float: left;
+        text-align: center;
+    }
+
+    .nav-area ul li a{
+        text-decoration: none;
+        font-size: 10px;
+        color: #ffffff;
+        text-transform: uppercase;
+        padding: 20px 0px;
+        display: block;
+    }
+  }
+
+@media only screen and (max-width: 320px) {
+    .nav-area ul li{
+        list-style: none;
+        width: 50px;
+        float: left;
+        text-align: center;
+    }
+
+    .nav-area ul li a{
+        text-decoration: none;
+        font-size: 7px;
+        color: #ffffff;
+        text-transform: uppercase;
+        padding: 20px 0px;
+        display: block;
+    }
+  }
