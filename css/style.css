@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav-area{
+    background-color: #000000;
+}
+.nav-area ul{
+    margin: 0px;
+    overflow: hidden;
+}
+.nav-area ul li{
+    list-style: none;
+    width: 110px;
+    float: left;
+    text-align: center;
+}
+.nav-area ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 20px 0px;
+    display: block;
+}
+.nav-area ul li a:hover{
+    background-color: #CCCCCC;
+    color: #000000;
+}
+
+.headding-area{
+    background-image: url('../img/la.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
