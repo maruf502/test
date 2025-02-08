@@ -34,4 +34,28 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+    position: relative;
+}
+.content-area{
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+    width: 100%;
+    
+}
+
+.head-title{
+    overflow: hidden;
+}
+
+.head-title h2{
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.head-details p{
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
