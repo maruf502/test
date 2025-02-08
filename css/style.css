@@ -102,3 +102,21 @@ body{
         display: block;
     }
   }
+  
+@media only screen and (max-width: 200px) {
+    .nav-area ul li{
+        list-style: none;
+        width: 30px;
+        float: left;
+        text-align: center;
+    }
+
+    .nav-area ul li a{
+        text-decoration: none;
+        font-size: 5px; 
+        color: #ffffff;
+        text-transform: uppercase;
+        padding: 20px 0px;
+        display: block;
+    }
+  }
